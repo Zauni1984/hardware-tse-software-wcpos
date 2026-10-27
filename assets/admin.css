@@ -1,0 +1,21 @@
+.hwtse .hwtse-cards { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; }
+.hwtse .hwtse-card { background: #fff; border: 1px solid #dcdcde; border-radius: 4px; padding: 12px 16px; min-width: 280px; flex: 1 1 320px; }
+.hwtse .hwtse-card h2 { margin: 0 0 8px; font-size: 15px; }
+.hwtse .hwtse-card th { text-align: left; padding: 2px 12px 2px 0; font-weight: 600; vertical-align: top; white-space: nowrap; }
+.hwtse .hwtse-card td { word-break: break-all; }
+.hwtse .hwtse-result.ok { color: #007017; }
+.hwtse .hwtse-result.err { color: #b32d2e; font-weight: 600; }
+.hwtse .hwtse-form { margin: 12px 0; }
+.hwtse .hwtse-journal .hwtse-error { color: #b32d2e; font-size: 12px; max-width: 320px; }
+.hwtse-agent { margin-top: 12px; }
+.hwtse-agent .hwtse-status { display: flex; flex-wrap: wrap; gap: 16px; }
+.hwtse-agent .hwtse-pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-weight: 600; background: #f0f0f1; }
+.hwtse-agent .hwtse-pill.ok { background: #d1f0d6; color: #00450c; }
+.hwtse-agent .hwtse-pill.warn { background: #fcf0d1; color: #614a00; }
+.hwtse-agent .hwtse-pill.err { background: #f8d7d8; color: #8a1f20; }
+.hwtse-agent .hwtse-actions { margin: 12px 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.hwtse-agent .hwtse-log { background: #1d2327; color: #e6e6e6; font: 12px/1.45 Menlo, Consolas, monospace; padding: 8px 12px; max-height: 360px; overflow: auto; border-radius: 4px; }
+.hwtse-agent .hwtse-log .err { color: #ff8a8a; }
+.hwtse-agent .hwtse-log .ok { color: #8fe39b; }
+.hwtse-dialog { max-width: 560px; border: 1px solid #dcdcde; border-radius: 6px; padding: 16px 20px; }
+.hwtse-dialog .hwtse-secret { font: 16px Menlo, Consolas, monospace; background: #f6f7f7; padding: 8px; border-radius: 4px; }

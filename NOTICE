@@ -1,0 +1,11 @@
+Hardware-TSE (Epson) für WCPOS
+Copyright (c) 2026 Stefan Z / Hanfjack – MIT License (see LICENSE)
+
+schema/index.xml and schema/gdpdu-01-09-2004.dtd
+  Description file and DTD of the "Digitale Schnittstelle der Finanzverwaltung
+  für Kassensysteme" (DSFinV-K) 2.4, published by the Bundeszentralamt für
+  Steuern / DFKA. Taken from https://github.com/TWEECORE/dsfinvk (Apache License 2.0).
+
+The Epson ePOS SDK for JavaScript is NOT part of this plugin. It is licensed by
+Seiko Epson Corporation and has to be downloaded from Epson and uploaded in the
+plugin settings by the user.
