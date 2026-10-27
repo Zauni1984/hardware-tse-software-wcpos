@@ -1,0 +1,18 @@
+  <!-- ── TSE-Daten (§ 6 KassenSichV) – vor dem Bestell-Barcode in die WCPOS-Thermovorlage einfügen ── -->
+  {{#fiscal.qr_payload}}
+  <line style="dashed" />
+  <bold><text>TSE-Daten</text></bold>
+  {{#fiscal.extra_fields}}
+  <text>{{label}}: {{value}}</text>
+  {{/fiscal.extra_fields}}
+  <feed lines="1" />
+  <align mode="center"><qrcode size="4">{{fiscal.qr_payload}}</qrcode></align>
+  {{/fiscal.qr_payload}}
+  {{^fiscal.qr_payload}}
+  {{#fiscal.extra_fields.0}}
+  <line style="dashed" />
+  {{/fiscal.extra_fields.0}}
+  {{#fiscal.extra_fields}}
+  <text>{{label}}: {{value}}</text>
+  {{/fiscal.extra_fields}}
+  {{/fiscal.qr_payload}}
